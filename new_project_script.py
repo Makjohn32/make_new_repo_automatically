@@ -12,10 +12,10 @@ driver = webdriver.Edge(PATH)
 driver.get("https://github.com/login")
 username = driver.find_element_by_id("login_field")
 username.click()
-username.send_keys("makjohn32@gmail.com")
+username.send_keys("your username or email")
 password = driver.find_element_by_id("password")
 password.click()
-password.send_keys("3264Projects")
+password.send_keys("your password")
 password.send_keys(Keys.RETURN)
 
 #create a new repository
